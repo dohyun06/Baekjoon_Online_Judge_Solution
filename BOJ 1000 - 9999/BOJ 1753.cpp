@@ -49,8 +49,8 @@ int main(void) {
 
 	dijkstra();
 
-  for (int i = 1; i < dist.size(); i++)
-    if (dist[i] < 200001) std::cout << dist[i] << '\n';
+  for (int i = 0; i < dist.size(); i++)
+    if (dist[i] < 1000000) std::cout << dist[i] << '\n';
     else std::cout << "INF" << '\n';
 
 	return 0;
