@@ -1,0 +1,35 @@
+Language: Cpp
+BasedOnStyle: Google
+ColumnLimit: 120
+AlignAfterOpenBracket: BlockIndent
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AlignFunctionDeclarations: true
+  AlignFunctionPointers: true
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: false
+  AlignFunctionDeclarations: true
+  AlignFunctionPointers: true
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: false
+  AlignFunctionDeclarations: true
+  AlignFunctionPointers: true
+AlignOperands: Align
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 0
+AllowShortBlocksOnASingleLine: Always
+AllowShortFunctionsOnASingleLine: All
+BinPackArguments: false
+BraceWrapping:
+  BeforeElse: true
+BreakBeforeBraces: Custom
+BreakBeforeTernaryOperators: false
+BreakInheritanceList: AfterColon
+RemoveBracesLLVM: true
+SpaceBeforeCpp11BracedList: true
+SpacesInContainerLiterals: false
